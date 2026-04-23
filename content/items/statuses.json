@@ -1,0 +1,10 @@
+{
+  "poisoned": {
+    "name_key": "status.poisoned.name",
+    "description_key": "status.poisoned.desc",
+    "duration": 20.0,
+    "tick_interval": 1.0,
+    "tick_damage": 1,
+    "color": [255, 210, 80, 255]
+  }
+}

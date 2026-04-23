@@ -1,0 +1,111 @@
+{
+  "logging": {
+    "level": "DEBUG",
+    "console_colors": true,
+    "file_logging": true,
+    "ansi_in_file": true,
+    "show_timestamp": true,
+    "show_level": true,
+    "show_logger_name": true
+  },
+  "biota_logging": {
+    "enabled": true,
+    "console_echo": true,
+    "separate_file": true,
+    "ansi_in_file": true
+  },
+  "level_colors": {
+    "DEBUG": "BRIGHT_BLACK",
+    "INFO": "GREEN",
+    "WARNING": "YELLOW",
+    "ERROR": "RED",
+    "CRITICAL": "BRIGHT_RED"
+  },
+  "message_color_rules": [
+    {
+      "pattern": "APP_*",
+      "match": "glob",
+      "color": "BRIGHT_GREEN"
+    },
+    {
+      "pattern": "GAME_*",
+      "match": "glob",
+      "color": "BRIGHT_GREEN"
+    },
+    {
+      "pattern": "USER_*",
+      "match": "glob",
+      "color": "BLUE"
+    },
+    {
+      "pattern": "PLAYER_*",
+      "match": "glob",
+      "color": "WHITE"
+    },
+    {
+      "pattern": "CAMERA_*",
+      "match": "glob",
+      "color": "CYAN"
+    },
+    {
+      "pattern": "MAP_*",
+      "match": "glob",
+      "color": "GREEN"
+    },
+    {
+      "pattern": "ZONE_*",
+      "match": "glob",
+      "color": "GREEN"
+    },
+    {
+      "pattern": "STATUS_*",
+      "match": "glob",
+      "color": "MAGENTA"
+    },
+    {
+      "pattern": "INTERACTION_*",
+      "match": "glob",
+      "color": "BRIGHT_BLUE"
+    },
+    {
+      "pattern": "I18N_*",
+      "match": "glob",
+      "color": "YELLOW"
+    },
+    {
+      "pattern": "FONT_*",
+      "match": "glob",
+      "color": "BRIGHT_MAGENTA"
+    },
+    {
+      "pattern": "TRIGGER_*",
+      "match": "glob",
+      "color": "BRIGHT_CYAN"
+    },
+    {
+      "pattern": "LOGGING_*",
+      "match": "glob",
+      "color": "BRIGHT_WHITE"
+    },
+    {
+      "pattern": "BIOTA_*",
+      "match": "glob",
+      "color": "BRIGHT_WHITE"
+    },
+    {
+      "pattern": "BIOTA_FLORA_GRAVE_LACE_VINE_*",
+      "match": "glob",
+      "color": "MAGENTA"
+    },
+    {
+      "pattern": "BIOTA_FLORA_BLUE_MERCY_GOURD_*",
+      "match": "glob",
+      "color": "BRIGHT_BLUE"
+    },
+    {
+      "pattern": "BIOTA_FAUNA_*",
+      "match": "glob",
+      "color": "CYAN"
+    }
+  ]
+}

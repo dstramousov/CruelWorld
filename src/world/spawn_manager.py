@@ -1,0 +1,1 @@
+"""Spawn manager placeholder."""

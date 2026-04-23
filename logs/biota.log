@@ -1,0 +1,135 @@
+[97m[2026-04-23 11:07:55,107] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=317.02 | player_y=224.5 | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,108] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,124] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,141] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,159] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,189] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,211] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,233] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,256] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,273] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,294] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,315] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,479] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=352.68 | player_y=247.74 | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,479] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,495] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,514] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,533] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,555] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,572] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,594] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,611] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,631] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,650] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,672] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,691] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,711] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,730] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,747] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,768] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,786] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,807] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:08:01,207] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=365.816 | entity='blue_mercy_gourd_01'[0m
+[97m[2026-04-23 11:08:01,857] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=503.264 | entity='blue_mercy_gourd_01'[0m
+[97m[2026-04-23 11:08:02,943] [INFO] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_INTERACTED | clears_statuses=['poisoned'] | entity='blue_mercy_gourd_01'[0m
+[97m[2026-04-23 19:38:46,547] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=304.09 | player_y=256.0 | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,547] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,563] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,580] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,597] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,613] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,630] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,647] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,663] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,680] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,697] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,713] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,730] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,747] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,764] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,780] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,797] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,813] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,830] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,847] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,864] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,880] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:47,180] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=364.91 | player_y=224.51 | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,181] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,197] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,213] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,230] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,247] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,264] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,280] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,297] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,314] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,330] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,347] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,364] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,380] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:51,132] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=500.391 | entity='blue_mercy_gourd_01'[0m
+[97m[2026-04-23 19:38:52,183] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=515.065 | entity='blue_mercy_gourd_01'[0m
+[97m[2026-04-23 19:38:53,500] [INFO] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_INTERACTED | clears_statuses=['poisoned'] | entity='blue_mercy_gourd_01'[0m
+[97m[2026-04-23 21:06:19,293] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=304.1 | player_y=256.0 | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,293] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,310] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,326] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,343] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,360] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,377] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,393] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,410] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,426] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,443] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,460] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,477] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,493] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,510] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,526] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,543] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,560] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,576] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,593] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,610] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,626] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,643] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,660] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,676] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,693] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,710] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,726] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,743] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,760] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,776] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,793] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,810] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,826] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,843] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,860] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,876] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,893] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:20,060] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=352.11 | player_y=256.0 | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,060] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,077] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,093] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,110] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,126] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,143] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,160] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,176] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,193] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,210] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,226] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,243] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,260] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,276] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,293] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,310] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,326] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,343] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,360] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,377] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,393] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:24,211] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=566.926 | entity='blue_mercy_gourd_01'[0m
+[97m[2026-04-23 21:06:27,647] [INFO] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_INTERACTED | clears_statuses=['poisoned'] | entity='blue_mercy_gourd_01'[0m

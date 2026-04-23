@@ -1,0 +1,7 @@
+{
+  "id": "vertical_slice_01",
+  "name_key": "zone.vertical_slice_01.name",
+  "map_path": "assets/maps/vertical_slice_01.tmx",
+  "camera_profile_default": "default_exploration",
+  "spawn_id": "player_spawn"
+}

@@ -1,0 +1,12 @@
+{
+  "show_overlay_default": false,
+  "overlay": {
+    "mode": "full_window",
+    "padding": 12,
+    "margin": 8,
+    "font_size": 8,
+    "line_height": 10,
+    "min_width": 320,
+    "min_height": 120
+  }
+}

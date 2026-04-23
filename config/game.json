@@ -1,0 +1,153 @@
+{
+  "window": {
+    "title": "Kingdom Fall",
+    "width": 1670,
+    "height": 940,
+    "target_fps": 60,
+    "vsync": true
+  },
+  "render": {
+    "internal_width": 640,
+    "internal_height": 360,
+    "clear_color": [
+      10,
+      12,
+      18,
+      255
+    ]
+  },
+  "localization": {
+    "default_language": "eng",
+    "supported_languages": [
+      "eng",
+      "ukr"
+    ]
+  },
+  "debug": {
+    "overlay_enabled": false
+  },
+  "font": {
+    "path": "assets/fonts/PressStart2P-Regular.ttf",
+    "base_size": 8,
+    "spacing": 1.0
+  },
+  "world": {
+    "start_zone": "vertical_slice_01",
+    "start_map": "assets/maps/vertical_slice_01.tmx"
+  },
+  "timing": {
+    "max_delta_time": 0.0333333333
+  },
+  "application": {
+    "pause_on_focus_lost": true
+  },
+  "parallax": {
+    "enabled": true,
+    "layers": [
+      {
+        "path": "assets/backgrounds/parallax_sky_01.png",
+        "speed": 0.06,
+        "alpha": 255,
+        "vertical_offset": 0,
+        "height": 360,
+        "width": 1280,
+        "name": "sky"
+      },
+      {
+        "path": "assets/backgrounds/parallax_far_01.png",
+        "speed": 0.14,
+        "alpha": 190,
+        "vertical_offset": 0,
+        "height": 360,
+        "width": 1280,
+        "name": "far"
+      },
+      {
+        "path": "assets/backgrounds/parallax_mid_01.png",
+        "speed": 0.26,
+        "alpha": 150,
+        "vertical_offset": 0,
+        "height": 360,
+        "width": 1280,
+        "name": "mid"
+      }
+    ]
+  },
+  "day_night_cycle": {
+    "enabled": true,
+    "day_duration_minutes": 3.0,
+    "randomize_start_time": true,
+    "start_time_hours": 12.0,
+    "phase_ranges": {
+      "dawn_start": 5.0,
+      "day_start": 7.0,
+      "dusk_start": 18.0,
+      "night_start": 20.0
+    },
+    "stars": {
+      "enabled": true,
+      "count": 80,
+      "min_alpha": 90,
+      "max_alpha": 255,
+      "twinkle_enabled": true,
+      "twinkle_speed_min": 0.8,
+      "twinkle_speed_max": 2.4,
+      "twinkle_amplitude": 0.35,
+      "min_size": 1,
+      "max_size": 2,
+      "parallax_speed": 0.03,
+      "min_y": 8,
+      "max_y": 168
+    },
+    "tint": {
+      "day_world": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "dusk_world": [
+        255,
+        226,
+        186,
+        22
+      ],
+      "night_world": [
+        180,
+        196,
+        255,
+        42
+      ],
+      "dawn_world": [
+        198,
+        222,
+        255,
+        20
+      ],
+      "day_sky": [
+        225,
+        235,
+        255,
+        36
+      ],
+      "dusk_sky": [
+        255,
+        196,
+        140,
+        78
+      ],
+      "night_sky": [
+        96,
+        126,
+        168,
+        118
+      ],
+      "dawn_sky": [
+        176,
+        206,
+        240,
+        72
+      ]
+    }
+  }
+}

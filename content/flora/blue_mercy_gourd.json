@@ -1,0 +1,9 @@
+{
+  "id": "blue_mercy_gourd",
+  "name_key": "flora.blue_mercy_gourd.name",
+  "description_key": "flora.blue_mercy_gourd.desc",
+  "interaction_type": "cleanse",
+  "consumable": true,
+  "clears_statuses": ["poisoned"],
+  "sprite": "placeholder"
+}

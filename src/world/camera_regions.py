@@ -1,0 +1,1 @@
+"""Camera region loader placeholder."""

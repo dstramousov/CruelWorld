@@ -1,0 +1,532 @@
+[97m[2026-04-23 10:49:15,296] [INFO] [src.systems.log_system] LOGGING_CONFIGURED | level_name='DEBUG' | console_colors=True | file_logging=True | ansi_in_file=True | biota_logging=True | biota_file_logging=True[0m
+[33m[2026-04-23 10:49:15,435] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='eng' | file='eng.lng' | entries=38[0m
+[33m[2026-04-23 10:49:15,435] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='ukr' | file='ukr.lng' | entries=38[0m
+[95m[2026-04-23 10:49:15,436] [INFO] [src.ui.text_renderer] FONT_LOADED | file='PressStart2P-Regular.ttf' | glyphs=157 | base_size=8 | spacing=1.0[0m
+[36m[2026-04-23 10:49:15,436] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='default_exploration' | trigger='none' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 10:49:15,436] [INFO] [src.systems.camera_system] CAMERA_RENDER_PIXEL_SNAP_ENABLED[0m
+[32m[2026-04-23 10:49:15,444] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='sky' | path='assets/backgrounds/parallax_sky_01.png' | speed=0.06 | alpha=255[0m
+[32m[2026-04-23 10:49:15,452] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='far' | path='assets/backgrounds/parallax_far_01.png' | speed=0.14 | alpha=190[0m
+[32m[2026-04-23 10:49:15,463] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='mid' | path='assets/backgrounds/parallax_mid_01.png' | speed=0.26 | alpha=150[0m
+[32m[2026-04-23 10:49:15,464] [INFO] [src.world.tiled_loader] MAP_LOADED | map_id='vertical_slice_01' | width=80 | height=23 | tile_width=16 | tile_height=16 | tile_layers=3 | object_layers=6[0m
+[37m[2026-04-23 10:49:15,464] [INFO] [src.core.game] PLAYER_SPAWNED | x=72.0 | y=256.0[0m
+[92m[2026-04-23 10:49:15,464] [INFO] [src.core.game] GAME_INITIALIZED | map_id='vertical_slice_01'[0m
+[92m[2026-04-23 10:49:15,464] [INFO] [src.core.app] APP_STARTED | window_width=1672 | window_height=941 | internal_width=640 | internal_height=360 | pause_on_focus_lost=True | max_delta_time=0.0333333333[0m
+[92m[2026-04-23 10:49:15,464] [INFO] [src.core.app] APP_FOCUS_GAINED[0m
+[92m[2026-04-23 10:49:15,482] [DEBUG] [src.core.app] APP_DELTA_TIME_CLAMPED | raw_delta_time=0.051373 | clamped_delta_time=0.033333[0m
+[34m[2026-04-23 10:49:17,030] [DEBUG] [src.core.game] USER_JUMPED | x=83.20013844966888 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 10:49:17,730] [DEBUG] [src.core.game] USER_JUMPED | x=150.4009457230568 | y=224.0 | velocity_y=-255.0[0m
+[32m[2026-04-23 10:49:20,330] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[95m[2026-04-23 10:49:24,155] [DEBUG] [src.ui.text_renderer] FONT_UNLOADED | file='assets/fonts/PressStart2P-Regular.ttf'[0m
+[92m[2026-04-23 10:49:24,209] [INFO] [src.core.app] APP_STOPPED[0m
+[97m[2026-04-23 11:01:18,801] [INFO] [src.systems.log_system] LOGGING_CONFIGURED | level_name='DEBUG' | console_colors=True | file_logging=True | ansi_in_file=True | biota_logging=True | biota_file_logging=True[0m
+[33m[2026-04-23 11:01:18,913] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='eng' | file='eng.lng' | entries=38[0m
+[33m[2026-04-23 11:01:18,913] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='ukr' | file='ukr.lng' | entries=38[0m
+[95m[2026-04-23 11:01:18,914] [INFO] [src.ui.text_renderer] FONT_LOADED | file='PressStart2P-Regular.ttf' | glyphs=157 | base_size=8 | spacing=1.0[0m
+[36m[2026-04-23 11:01:18,914] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='default_exploration' | trigger='none' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 11:01:18,914] [INFO] [src.systems.camera_system] CAMERA_RENDER_PIXEL_SNAP_ENABLED[0m
+[32m[2026-04-23 11:01:18,922] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='sky' | path='assets/backgrounds/parallax_sky_01.png' | speed=0.06 | alpha=255[0m
+[32m[2026-04-23 11:01:18,930] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='far' | path='assets/backgrounds/parallax_far_01.png' | speed=0.14 | alpha=190[0m
+[32m[2026-04-23 11:01:18,941] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='mid' | path='assets/backgrounds/parallax_mid_01.png' | speed=0.26 | alpha=150[0m
+[32m[2026-04-23 11:01:18,942] [INFO] [src.world.tiled_loader] MAP_LOADED | map_id='vertical_slice_01' | width=80 | height=23 | tile_width=16 | tile_height=16 | tile_layers=3 | object_layers=6[0m
+[37m[2026-04-23 11:01:18,942] [INFO] [src.core.game] PLAYER_SPAWNED | x=72.0 | y=256.0[0m
+[92m[2026-04-23 11:01:18,942] [INFO] [src.core.game] GAME_INITIALIZED | map_id='vertical_slice_01'[0m
+[92m[2026-04-23 11:01:18,942] [INFO] [src.core.app] APP_STARTED | window_width=1672 | window_height=941 | internal_width=640 | internal_height=360 | pause_on_focus_lost=True | max_delta_time=0.0333333333[0m
+[92m[2026-04-23 11:01:18,942] [INFO] [src.core.app] APP_FOCUS_GAINED[0m
+[92m[2026-04-23 11:01:18,956] [DEBUG] [src.core.app] APP_DELTA_TIME_CLAMPED | raw_delta_time=0.04846 | clamped_delta_time=0.033333[0m
+[32m[2026-04-23 11:01:21,405] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 11:01:22,072] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[95m[2026-04-23 11:01:24,122] [DEBUG] [src.ui.text_renderer] FONT_UNLOADED | file='assets/fonts/PressStart2P-Regular.ttf'[0m
+[92m[2026-04-23 11:01:24,174] [INFO] [src.core.app] APP_STOPPED[0m
+[97m[2026-04-23 11:01:58,969] [INFO] [src.systems.log_system] LOGGING_CONFIGURED | level_name='DEBUG' | console_colors=True | file_logging=True | ansi_in_file=True | biota_logging=True | biota_file_logging=True[0m
+[33m[2026-04-23 11:01:59,095] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='eng' | file='eng.lng' | entries=38[0m
+[33m[2026-04-23 11:01:59,096] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='ukr' | file='ukr.lng' | entries=38[0m
+[95m[2026-04-23 11:01:59,096] [INFO] [src.ui.text_renderer] FONT_LOADED | file='PressStart2P-Regular.ttf' | glyphs=157 | base_size=8 | spacing=1.0[0m
+[36m[2026-04-23 11:01:59,096] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='default_exploration' | trigger='none' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 11:01:59,097] [INFO] [src.systems.camera_system] CAMERA_RENDER_PIXEL_SNAP_ENABLED[0m
+[32m[2026-04-23 11:01:59,105] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='sky' | path='assets/backgrounds/parallax_sky_01.png' | speed=0.06 | alpha=255[0m
+[32m[2026-04-23 11:01:59,112] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='far' | path='assets/backgrounds/parallax_far_01.png' | speed=0.14 | alpha=190[0m
+[32m[2026-04-23 11:01:59,124] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='mid' | path='assets/backgrounds/parallax_mid_01.png' | speed=0.26 | alpha=150[0m
+[32m[2026-04-23 11:01:59,125] [INFO] [src.world.tiled_loader] MAP_LOADED | map_id='vertical_slice_01' | width=80 | height=23 | tile_width=16 | tile_height=16 | tile_layers=3 | object_layers=6[0m
+[37m[2026-04-23 11:01:59,125] [INFO] [src.core.game] PLAYER_SPAWNED | x=72.0 | y=256.0[0m
+[92m[2026-04-23 11:01:59,126] [INFO] [src.core.game] GAME_INITIALIZED | map_id='vertical_slice_01'[0m
+[92m[2026-04-23 11:01:59,126] [INFO] [src.core.app] APP_STARTED | window_width=1672 | window_height=941 | internal_width=640 | internal_height=360 | pause_on_focus_lost=True | max_delta_time=0.0333333333[0m
+[92m[2026-04-23 11:01:59,126] [INFO] [src.core.app] APP_FOCUS_GAINED[0m
+[92m[2026-04-23 11:01:59,139] [DEBUG] [src.core.app] APP_DELTA_TIME_CLAMPED | raw_delta_time=0.049146 | clamped_delta_time=0.033333[0m
+[95m[2026-04-23 11:01:59,788] [DEBUG] [src.ui.text_renderer] FONT_UNLOADED | file='assets/fonts/PressStart2P-Regular.ttf'[0m
+[92m[2026-04-23 11:01:59,831] [INFO] [src.core.app] APP_STOPPED[0m
+[97m[2026-04-23 11:07:46,498] [INFO] [src.systems.log_system] LOGGING_CONFIGURED | level_name='DEBUG' | console_colors=True | file_logging=True | ansi_in_file=True | biota_logging=True | biota_file_logging=True[0m
+[33m[2026-04-23 11:07:46,615] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='eng' | file='eng.lng' | entries=38[0m
+[33m[2026-04-23 11:07:46,616] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='ukr' | file='ukr.lng' | entries=38[0m
+[95m[2026-04-23 11:07:46,616] [INFO] [src.ui.text_renderer] FONT_LOADED | file='PressStart2P-Regular.ttf' | glyphs=157 | base_size=8 | spacing=1.0[0m
+[36m[2026-04-23 11:07:46,616] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='default_exploration' | trigger='none' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 11:07:46,616] [INFO] [src.systems.camera_system] CAMERA_RENDER_PIXEL_SNAP_ENABLED[0m
+[32m[2026-04-23 11:07:46,625] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='sky' | path='assets/backgrounds/parallax_sky_01.png' | speed=0.06 | alpha=255[0m
+[32m[2026-04-23 11:07:46,633] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='far' | path='assets/backgrounds/parallax_far_01.png' | speed=0.14 | alpha=190[0m
+[32m[2026-04-23 11:07:46,644] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='mid' | path='assets/backgrounds/parallax_mid_01.png' | speed=0.26 | alpha=150[0m
+[32m[2026-04-23 11:07:46,645] [INFO] [src.world.tiled_loader] MAP_LOADED | map_id='vertical_slice_01' | width=80 | height=23 | tile_width=16 | tile_height=16 | tile_layers=3 | object_layers=6[0m
+[37m[2026-04-23 11:07:46,645] [INFO] [src.core.game] PLAYER_SPAWNED | x=72.0 | y=256.0[0m
+[92m[2026-04-23 11:07:46,645] [INFO] [src.core.game] GAME_INITIALIZED | map_id='vertical_slice_01'[0m
+[92m[2026-04-23 11:07:46,645] [INFO] [src.core.app] APP_STARTED | window_width=1672 | window_height=941 | internal_width=1640 | internal_height=960 | pause_on_focus_lost=True | max_delta_time=0.0333333333[0m
+[92m[2026-04-23 11:07:46,645] [INFO] [src.core.app] APP_FOCUS_GAINED[0m
+[92m[2026-04-23 11:07:46,674] [DEBUG] [src.core.app] APP_DELTA_TIME_CLAMPED | raw_delta_time=0.062426 | clamped_delta_time=0.033333[0m
+[34m[2026-04-23 11:07:48,430] [DEBUG] [src.core.game] USER_JUMPED | x=100.80034250020981 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 11:07:48,830] [DEBUG] [src.core.game] USER_JUMPED | x=139.2008634209633 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 11:07:50,973] [DEBUG] [src.core.game] USER_JUMPED | x=176.32464748620987 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 11:07:52,040] [DEBUG] [src.core.game] USER_JUMPED | x=195.61337059736252 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 11:07:53,876] [DEBUG] [src.core.game] USER_JUMPED | x=197.21445500850677 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 11:07:54,774] [DEBUG] [src.core.game] USER_JUMPED | x=283.41667824983597 | y=256.0 | velocity_y=-255.0[0m
+[97m[2026-04-23 11:07:55,107] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=317.02 | player_y=224.5 | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 11:07:55,107] [INFO] [src.systems.status_system] STATUS_APPLIED | status='poisoned' | duration=20.0 | tick_interval=1.0 | tick_damage=1[0m
+[97m[2026-04-23 11:07:55,108] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 11:07:55,124] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,124] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 11:07:55,141] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,141] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[36m[2026-04-23 11:07:55,141] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='threat_reveal' | trigger='threat_zone' | zoom=1.12 | follow_speed=0.1 | look_ahead_x=32.0[0m
+[35m[2026-04-23 11:07:55,158] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,159] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 11:07:55,189] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,189] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 11:07:55,211] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,211] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 11:07:55,233] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,233] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 11:07:55,256] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,256] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 11:07:55,273] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,273] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 11:07:55,294] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,294] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,315] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 11:07:55,479] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=352.68 | player_y=247.74 | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,479] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,479] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,495] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,495] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,514] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,514] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,533] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,533] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,555] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,555] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,572] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,572] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,594] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,594] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,611] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,611] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,630] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,631] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,649] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,650] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,672] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,672] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[34m[2026-04-23 11:07:55,691] [DEBUG] [src.core.game] USER_JUMPED | x=371.19372600317 | y=256.0 | velocity_y=-255.0[0m
+[35m[2026-04-23 11:07:55,691] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,691] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,711] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,711] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,730] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,730] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,747] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,747] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,768] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,768] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:55,786] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 11:07:55,786] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 11:07:55,807] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 11:07:56,098] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=99 | remaining=19.67[0m
+[34m[2026-04-23 11:07:56,381] [DEBUG] [src.core.game] USER_JUMPED | x=437.74733912944794 | y=256.0 | velocity_y=-255.0[0m
+[35m[2026-04-23 11:07:57,098] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=98 | remaining=18.67[0m
+[32m[2026-04-23 11:07:57,466] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[35m[2026-04-23 11:07:58,107] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=97 | remaining=17.661[0m
+[35m[2026-04-23 11:07:59,107] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=96 | remaining=16.661[0m
+[34m[2026-04-23 11:07:59,374] [DEBUG] [src.core.game] USER_JUMPED | x=555.2824772000313 | y=256.0 | velocity_y=-255.0[0m
+[36m[2026-04-23 11:07:59,574] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='threat_reveal' | current='recovery_pocket' | trigger='recovery_zone' | zoom=1.08 | follow_speed=0.075 | look_ahead_x=18.0[0m
+[35m[2026-04-23 11:08:00,091] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=95 | remaining=15.678[0m
+[34m[2026-04-23 11:08:00,141] [DEBUG] [src.core.game] USER_JUMPED | x=628.962324142456 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 11:08:00,938] [DEBUG] [src.core.game] USER_JUMPED | x=705.4318912625313 | y=256.0 | velocity_y=-255.0[0m
+[35m[2026-04-23 11:08:01,107] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=94 | remaining=14.662[0m
+[94m[2026-04-23 11:08:01,207] [DEBUG] [src.systems.interaction_system] INTERACTION_AVAILABLE | target='blue_mercy_gourd_01' | distance_sq=365.816[0m
+[97m[2026-04-23 11:08:01,207] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=365.816 | entity='blue_mercy_gourd_01'[0m
+[94m[2026-04-23 11:08:01,671] [DEBUG] [src.systems.interaction_system] INTERACTION_TARGET_LOST | target='blue_mercy_gourd_01'[0m
+[94m[2026-04-23 11:08:01,856] [DEBUG] [src.systems.interaction_system] INTERACTION_AVAILABLE | target='blue_mercy_gourd_01' | distance_sq=503.264[0m
+[97m[2026-04-23 11:08:01,857] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=503.264 | entity='blue_mercy_gourd_01'[0m
+[35m[2026-04-23 11:08:02,092] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=93 | remaining=13.676[0m
+[94m[2026-04-23 11:08:02,942] [INFO] [src.systems.interaction_system] INTERACTION_EXECUTED | target='blue_mercy_gourd_01' | clears_statuses=['poisoned'][0m
+[97m[2026-04-23 11:08:02,943] [INFO] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_INTERACTED | clears_statuses=['poisoned'] | entity='blue_mercy_gourd_01'[0m
+[35m[2026-04-23 11:08:02,943] [INFO] [src.systems.status_system] STATUS_REMOVED | status='poisoned'[0m
+[94m[2026-04-23 11:08:02,943] [INFO] [src.systems.interaction_system] INTERACTION_COMPLETED | target='blue_mercy_gourd_01' | removed=['poisoned'][0m
+[94m[2026-04-23 11:08:02,959] [DEBUG] [src.systems.interaction_system] INTERACTION_TARGET_LOST | target='blue_mercy_gourd_01'[0m
+[34m[2026-04-23 11:08:04,235] [DEBUG] [src.core.game] USER_JUMPED | x=859.1539535522461 | y=256.0 | velocity_y=-255.0[0m
+[36m[2026-04-23 11:08:04,604] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='recovery_pocket' | current='default_exploration' | trigger='final_zone' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[34m[2026-04-23 11:08:05,671] [DEBUG] [src.core.game] USER_JUMPED | x=997.0269212722778 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 11:08:06,605] [DEBUG] [src.core.game] USER_JUMPED | x=1086.7305124998093 | y=256.0 | velocity_y=-255.0[0m
+[92m[2026-04-23 11:08:07,439] [INFO] [src.core.game] GAME_SLICE_COMPLETED | map_id='vertical_slice_01'[0m
+[95m[2026-04-23 11:08:08,475] [DEBUG] [src.ui.text_renderer] FONT_UNLOADED | file='assets/fonts/PressStart2P-Regular.ttf'[0m
+[92m[2026-04-23 11:08:08,524] [INFO] [src.core.app] APP_STOPPED[0m
+[97m[2026-04-23 14:50:03,544] [INFO] [src.systems.log_system] LOGGING_CONFIGURED | level_name='DEBUG' | console_colors=True | file_logging=True | ansi_in_file=True | biota_logging=True | biota_file_logging=True[0m
+[32m[2026-04-23 14:50:03,545] [INFO] [test] hello[0m
+[97m[2026-04-23 19:38:12,737] [INFO] [src.systems.log_system] LOGGING_CONFIGURED | level_name='DEBUG' | console_colors=True | file_logging=True | ansi_in_file=True | biota_logging=True | biota_file_logging=True[0m
+[33m[2026-04-23 19:38:12,909] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='eng' | file='eng.lng' | entries=38[0m
+[33m[2026-04-23 19:38:12,910] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='ukr' | file='ukr.lng' | entries=38[0m
+[95m[2026-04-23 19:38:12,912] [INFO] [src.ui.text_renderer] FONT_LOADED | file='PressStart2P-Regular.ttf' | glyphs=157 | base_size=8 | spacing=1.0[0m
+[36m[2026-04-23 19:38:12,912] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='default_exploration' | trigger='none' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 19:38:12,913] [INFO] [src.systems.camera_system] CAMERA_RENDER_PIXEL_SNAP_ENABLED[0m
+[32m[2026-04-23 19:38:12,930] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='sky' | path='assets/backgrounds/parallax_sky_01.png' | speed=0.06 | alpha=255[0m
+[32m[2026-04-23 19:38:12,946] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='far' | path='assets/backgrounds/parallax_far_01.png' | speed=0.14 | alpha=190[0m
+[32m[2026-04-23 19:38:12,971] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='mid' | path='assets/backgrounds/parallax_mid_01.png' | speed=0.26 | alpha=150[0m
+[32m[2026-04-23 19:38:12,974] [INFO] [src.world.tiled_loader] MAP_LOADED | map_id='vertical_slice_01' | width=80 | height=23 | tile_width=16 | tile_height=16 | tile_layers=3 | object_layers=6[0m
+[37m[2026-04-23 19:38:12,974] [INFO] [src.core.game] PLAYER_SPAWNED | x=72.0 | y=256.0[0m
+[92m[2026-04-23 19:38:12,974] [INFO] [src.core.game] GAME_INITIALIZED | map_id='vertical_slice_01'[0m
+[92m[2026-04-23 19:38:12,975] [INFO] [src.core.app] APP_STARTED | window_width=1670 | window_height=940 | internal_width=640 | internal_height=360 | pause_on_focus_lost=True | max_delta_time=0.0333333333[0m
+[92m[2026-04-23 19:38:12,975] [INFO] [src.core.app] APP_FOCUS_GAINED[0m
+[92m[2026-04-23 19:38:13,011] [DEBUG] [src.core.app] APP_DELTA_TIME_CLAMPED | raw_delta_time=0.096293 | clamped_delta_time=0.033333[0m
+[92m[2026-04-23 19:38:13,018] [DEBUG] [src.core.app] APP_DELTA_TIME_CLAMPED | raw_delta_time=0.036239 | clamped_delta_time=0.033333[0m
+[34m[2026-04-23 19:38:14,402] [DEBUG] [src.core.game] USER_JUMPED | x=72.0 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 19:38:16,003] [DEBUG] [src.core.game] USER_JUMPED | x=108.8125142455101 | y=256.0 | velocity_y=-255.0[0m
+[32m[2026-04-23 19:38:17,570] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 19:38:21,488] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[32m[2026-04-23 19:38:22,155] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 19:38:22,805] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[34m[2026-04-23 19:38:24,022] [DEBUG] [src.core.game] USER_JUMPED | x=123.21872448921204 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 19:38:25,406] [DEBUG] [src.core.game] USER_JUMPED | x=136.01397532224655 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 19:38:26,523] [DEBUG] [src.core.game] USER_JUMPED | x=172.82522517442703 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 19:38:27,556] [DEBUG] [src.core.game] USER_JUMPED | x=238.45283210277557 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 19:38:28,957] [DEBUG] [src.core.game] USER_JUMPED | x=238.46200400590897 | y=256.0 | velocity_y=-255.0[0m
+[32m[2026-04-23 19:38:36,226] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 19:38:40,061] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[33m[2026-04-23 19:38:42,878] [INFO] [src.systems.localization_system] I18N_LANGUAGE_SWITCHED | language='ukr'[0m
+[32m[2026-04-23 19:38:44,012] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 19:38:45,579] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[97m[2026-04-23 19:38:46,547] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=304.09 | player_y=256.0 | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,547] [INFO] [src.systems.status_system] STATUS_APPLIED | status='poisoned' | duration=20.0 | tick_interval=1.0 | tick_damage=1[0m
+[97m[2026-04-23 19:38:46,547] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,563] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,563] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,580] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,580] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,596] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,597] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,613] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,613] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,630] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,630] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,646] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,647] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,663] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,663] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,680] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,680] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,697] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,697] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,713] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,713] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[36m[2026-04-23 19:38:46,714] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='threat_reveal' | trigger='threat_zone' | zoom=1.12 | follow_speed=0.1 | look_ahead_x=32.0[0m
+[35m[2026-04-23 19:38:46,730] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,730] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,746] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,747] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,763] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,764] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,780] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,780] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,796] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,797] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,813] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,813] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,830] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,830] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[34m[2026-04-23 19:38:46,847] [DEBUG] [src.core.game] USER_JUMPED | x=331.29998445510864 | y=256.0 | velocity_y=-255.0[0m
+[35m[2026-04-23 19:38:46,847] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,847] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 19:38:46,863] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:46,864] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:46,880] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 19:38:47,180] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=364.91 | player_y=224.51 | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,180] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,181] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,197] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,197] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,213] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,213] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,230] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,230] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,247] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,247] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,263] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,264] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,280] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,280] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,297] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,297] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,313] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,314] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,330] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,330] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,347] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,347] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 19:38:47,363] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 19:38:47,364] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 19:38:47,380] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_02'[0m
+[34m[2026-04-23 19:38:47,530] [DEBUG] [src.core.game] USER_JUMPED | x=396.92374670505524 | y=256.0 | velocity_y=-255.0[0m
+[35m[2026-04-23 19:38:47,531] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=99 | remaining=19.817[0m
+[34m[2026-04-23 19:38:48,197] [DEBUG] [src.core.game] USER_JUMPED | x=460.9432037472725 | y=256.0 | velocity_y=-255.0[0m
+[35m[2026-04-23 19:38:48,531] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=98 | remaining=18.816[0m
+[34m[2026-04-23 19:38:49,048] [DEBUG] [src.core.game] USER_JUMPED | x=542.5759595632553 | y=240.0 | velocity_y=-255.0[0m
+[36m[2026-04-23 19:38:49,381] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='threat_reveal' | current='recovery_pocket' | trigger='recovery_zone' | zoom=1.08 | follow_speed=0.075 | look_ahead_x=18.0[0m
+[35m[2026-04-23 19:38:49,531] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=97 | remaining=17.816[0m
+[35m[2026-04-23 19:38:50,532] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=96 | remaining=16.815[0m
+[34m[2026-04-23 19:38:50,998] [DEBUG] [src.core.game] USER_JUMPED | x=729.8754923343658 | y=256.0 | velocity_y=-255.0[0m
+[94m[2026-04-23 19:38:51,132] [DEBUG] [src.systems.interaction_system] INTERACTION_AVAILABLE | target='blue_mercy_gourd_01' | distance_sq=500.391[0m
+[97m[2026-04-23 19:38:51,132] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=500.391 | entity='blue_mercy_gourd_01'[0m
+[94m[2026-04-23 19:38:51,465] [DEBUG] [src.systems.interaction_system] INTERACTION_TARGET_LOST | target='blue_mercy_gourd_01'[0m
+[35m[2026-04-23 19:38:51,532] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=95 | remaining=15.815[0m
+[94m[2026-04-23 19:38:52,183] [DEBUG] [src.systems.interaction_system] INTERACTION_AVAILABLE | target='blue_mercy_gourd_01' | distance_sq=515.065[0m
+[97m[2026-04-23 19:38:52,183] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=515.065 | entity='blue_mercy_gourd_01'[0m
+[35m[2026-04-23 19:38:52,532] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=94 | remaining=14.814[0m
+[94m[2026-04-23 19:38:53,499] [INFO] [src.systems.interaction_system] INTERACTION_EXECUTED | target='blue_mercy_gourd_01' | clears_statuses=['poisoned'][0m
+[97m[2026-04-23 19:38:53,500] [INFO] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_INTERACTED | clears_statuses=['poisoned'] | entity='blue_mercy_gourd_01'[0m
+[35m[2026-04-23 19:38:53,500] [INFO] [src.systems.status_system] STATUS_REMOVED | status='poisoned'[0m
+[94m[2026-04-23 19:38:53,500] [INFO] [src.systems.interaction_system] INTERACTION_COMPLETED | target='blue_mercy_gourd_01' | removed=['poisoned'][0m
+[94m[2026-04-23 19:38:53,516] [DEBUG] [src.systems.interaction_system] INTERACTION_TARGET_LOST | target='blue_mercy_gourd_01'[0m
+[36m[2026-04-23 19:38:55,400] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='recovery_pocket' | current='default_exploration' | trigger='final_zone' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[34m[2026-04-23 19:38:55,617] [DEBUG] [src.core.game] USER_JUMPED | x=915.5444430112839 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 19:38:56,617] [DEBUG] [src.core.game] USER_JUMPED | x=973.1762836575508 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 19:38:57,384] [DEBUG] [src.core.game] USER_JUMPED | x=992.3827984929085 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 19:38:58,001] [DEBUG] [src.core.game] USER_JUMPED | x=933.1641172170639 | y=256.0 | velocity_y=-255.0[0m
+[36m[2026-04-23 19:38:58,384] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='recovery_pocket' | trigger='recovery_zone' | zoom=1.08 | follow_speed=0.075 | look_ahead_x=18.0[0m
+[36m[2026-04-23 19:39:02,602] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='recovery_pocket' | current='default_exploration' | trigger='final_zone' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 19:39:03,336] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='recovery_pocket' | trigger='recovery_zone' | zoom=1.08 | follow_speed=0.075 | look_ahead_x=18.0[0m
+[36m[2026-04-23 19:39:03,836] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='recovery_pocket' | current='default_exploration' | trigger='final_zone' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 19:39:04,320] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='recovery_pocket' | trigger='recovery_zone' | zoom=1.08 | follow_speed=0.075 | look_ahead_x=18.0[0m
+[36m[2026-04-23 19:39:05,570] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='recovery_pocket' | current='default_exploration' | trigger='final_zone' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 19:39:06,053] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='recovery_pocket' | trigger='recovery_zone' | zoom=1.08 | follow_speed=0.075 | look_ahead_x=18.0[0m
+[36m[2026-04-23 19:39:06,303] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='recovery_pocket' | current='default_exploration' | trigger='final_zone' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 19:39:08,037] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='recovery_pocket' | trigger='recovery_zone' | zoom=1.08 | follow_speed=0.075 | look_ahead_x=18.0[0m
+[32m[2026-04-23 19:39:09,888] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[36m[2026-04-23 19:39:09,905] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='recovery_pocket' | current='default_exploration' | trigger='final_zone' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[32m[2026-04-23 19:39:16,374] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[32m[2026-04-23 19:39:16,874] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 19:39:18,574] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[32m[2026-04-23 19:39:21,609] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[95m[2026-04-23 19:41:20,983] [DEBUG] [src.ui.text_renderer] FONT_UNLOADED | file='assets/fonts/PressStart2P-Regular.ttf'[0m
+[92m[2026-04-23 19:41:21,008] [INFO] [src.core.app] APP_STOPPED[0m
+[97m[2026-04-23 21:05:20,472] [INFO] [src.systems.log_system] LOGGING_CONFIGURED | level_name='DEBUG' | console_colors=True | file_logging=True | ansi_in_file=True | biota_logging=True | biota_file_logging=True[0m
+[33m[2026-04-23 21:05:20,555] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='eng' | file='eng.lng' | entries=38[0m
+[33m[2026-04-23 21:05:20,555] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='ukr' | file='ukr.lng' | entries=38[0m
+[95m[2026-04-23 21:05:20,556] [INFO] [src.ui.text_renderer] FONT_LOADED | file='PressStart2P-Regular.ttf' | glyphs=157 | base_size=8 | spacing=1.0[0m
+[36m[2026-04-23 21:05:20,556] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='default_exploration' | trigger='none' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 21:05:20,556] [INFO] [src.systems.camera_system] CAMERA_RENDER_PIXEL_SNAP_ENABLED[0m
+[32m[2026-04-23 21:05:20,565] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='sky' | path='assets/backgrounds/parallax_sky_01.png' | speed=0.06 | alpha=255[0m
+[32m[2026-04-23 21:05:20,573] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='far' | path='assets/backgrounds/parallax_far_01.png' | speed=0.14 | alpha=190[0m
+[32m[2026-04-23 21:05:20,585] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='mid' | path='assets/backgrounds/parallax_mid_01.png' | speed=0.26 | alpha=150[0m
+[32m[2026-04-23 21:05:20,587] [INFO] [src.world.tiled_loader] MAP_LOADED | map_id='vertical_slice_01' | width=80 | height=23 | tile_width=16 | tile_height=16 | tile_layers=3 | object_layers=6[0m
+[37m[2026-04-23 21:05:20,587] [INFO] [src.core.game] PLAYER_SPAWNED | x=72.0 | y=256.0[0m
+[92m[2026-04-23 21:05:20,587] [INFO] [src.core.game] GAME_INITIALIZED | map_id='vertical_slice_01'[0m
+[92m[2026-04-23 21:05:20,587] [INFO] [src.core.app] APP_STARTED | window_width=1670 | window_height=940 | internal_width=640 | internal_height=360 | pause_on_focus_lost=True | max_delta_time=0.0333333333[0m
+[92m[2026-04-23 21:05:20,587] [INFO] [src.core.app] APP_FOCUS_GAINED[0m
+[92m[2026-04-23 21:05:20,593] [DEBUG] [src.core.app] APP_DELTA_TIME_CLAMPED | raw_delta_time=0.045857 | clamped_delta_time=0.033333[0m
+[34m[2026-04-23 21:05:23,375] [DEBUG] [src.core.game] USER_JUMPED | x=144.0183454155922 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:05:24,208] [DEBUG] [src.core.game] USER_JUMPED | x=160.02256786823273 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:05:24,975] [DEBUG] [src.core.game] USER_JUMPED | x=174.42557591199875 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:05:25,925] [DEBUG] [src.core.game] USER_JUMPED | x=83.2050331234932 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:05:27,059] [DEBUG] [src.core.game] USER_JUMPED | x=7.0 | y=256.0 | velocity_y=-255.0[0m
+[32m[2026-04-23 21:05:29,643] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 21:05:31,260] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[32m[2026-04-23 21:05:31,977] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 21:05:32,760] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[95m[2026-04-23 21:05:34,177] [DEBUG] [src.ui.text_renderer] FONT_UNLOADED | file='assets/fonts/PressStart2P-Regular.ttf'[0m
+[92m[2026-04-23 21:05:34,194] [INFO] [src.core.app] APP_STOPPED[0m
+[97m[2026-04-23 21:06:05,143] [INFO] [src.systems.log_system] LOGGING_CONFIGURED | level_name='DEBUG' | console_colors=True | file_logging=True | ansi_in_file=True | biota_logging=True | biota_file_logging=True[0m
+[33m[2026-04-23 21:06:05,233] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='eng' | file='eng.lng' | entries=38[0m
+[33m[2026-04-23 21:06:05,233] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='ukr' | file='ukr.lng' | entries=38[0m
+[95m[2026-04-23 21:06:05,234] [INFO] [src.ui.text_renderer] FONT_LOADED | file='PressStart2P-Regular.ttf' | glyphs=157 | base_size=8 | spacing=1.0[0m
+[36m[2026-04-23 21:06:05,234] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='default_exploration' | trigger='none' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 21:06:05,235] [INFO] [src.systems.camera_system] CAMERA_RENDER_PIXEL_SNAP_ENABLED[0m
+[32m[2026-04-23 21:06:05,244] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='sky' | path='assets/backgrounds/parallax_sky_01.png' | speed=0.06 | alpha=255[0m
+[32m[2026-04-23 21:06:05,252] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='far' | path='assets/backgrounds/parallax_far_01.png' | speed=0.14 | alpha=190[0m
+[32m[2026-04-23 21:06:05,264] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='mid' | path='assets/backgrounds/parallax_mid_01.png' | speed=0.26 | alpha=150[0m
+[32m[2026-04-23 21:06:05,266] [INFO] [src.world.tiled_loader] MAP_LOADED | map_id='vertical_slice_01' | width=80 | height=23 | tile_width=16 | tile_height=16 | tile_layers=3 | object_layers=6[0m
+[37m[2026-04-23 21:06:05,266] [INFO] [src.core.game] PLAYER_SPAWNED | x=72.0 | y=256.0[0m
+[92m[2026-04-23 21:06:05,266] [INFO] [src.core.game] GAME_INITIALIZED | map_id='vertical_slice_01'[0m
+[92m[2026-04-23 21:06:05,266] [INFO] [src.core.app] APP_STARTED | window_width=1670 | window_height=940 | internal_width=640 | internal_height=360 | pause_on_focus_lost=True | max_delta_time=0.0333333333[0m
+[92m[2026-04-23 21:06:05,266] [INFO] [src.core.app] APP_FOCUS_GAINED[0m
+[92m[2026-04-23 21:06:05,273] [DEBUG] [src.core.app] APP_DELTA_TIME_CLAMPED | raw_delta_time=0.046286 | clamped_delta_time=0.033333[0m
+[32m[2026-04-23 21:06:06,837] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[34m[2026-04-23 21:06:11,171] [DEBUG] [src.core.game] USER_JUMPED | x=86.4032027721405 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:06:11,971] [DEBUG] [src.core.game] USER_JUMPED | x=86.4032027721405 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:06:12,824] [DEBUG] [src.core.game] USER_JUMPED | x=102.40668028593063 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:06:13,858] [DEBUG] [src.core.game] USER_JUMPED | x=155.21797800064087 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:06:14,908] [DEBUG] [src.core.game] USER_JUMPED | x=196.82671147584915 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:06:15,792] [DEBUG] [src.core.game] USER_JUMPED | x=219.23248332738876 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:06:16,925] [DEBUG] [src.core.game] USER_JUMPED | x=136.01320749521255 | y=224.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:06:18,126] [DEBUG] [src.core.game] USER_JUMPED | x=190.47267973423004 | y=224.0 | velocity_y=-255.0[0m
+[97m[2026-04-23 21:06:19,293] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=304.1 | player_y=256.0 | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,293] [INFO] [src.systems.status_system] STATUS_APPLIED | status='poisoned' | duration=20.0 | tick_interval=1.0 | tick_damage=1[0m
+[97m[2026-04-23 21:06:19,293] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,310] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,310] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,326] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,326] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,343] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,343] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,360] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,360] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,376] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,377] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,393] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,393] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,410] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,410] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,426] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,426] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,443] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,443] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,460] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,460] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[36m[2026-04-23 21:06:19,460] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='threat_reveal' | trigger='threat_zone' | zoom=1.12 | follow_speed=0.1 | look_ahead_x=32.0[0m
+[35m[2026-04-23 21:06:19,476] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,477] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,493] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,493] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,510] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,510] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,526] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,526] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,543] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,543] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,560] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,560] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,576] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,576] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,593] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,593] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,610] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,610] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,626] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,626] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,643] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,643] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,660] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,660] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,676] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,676] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,693] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,693] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,710] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,710] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,726] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,726] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,743] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,743] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,760] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,760] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,776] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,776] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,793] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,793] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,810] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,810] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,826] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,826] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,843] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,843] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,860] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,860] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[35m[2026-04-23 21:06:19,876] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:19,876] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:19,893] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_01'[0m
+[97m[2026-04-23 21:06:20,060] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_NOTICED | player_x=352.11 | player_y=256.0 | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,060] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,060] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,076] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,077] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,093] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,093] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,110] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,110] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,126] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,126] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,143] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,143] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,160] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,160] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,176] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,176] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,193] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,193] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,210] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,210] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,226] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,226] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,243] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,243] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,260] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,260] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,276] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,276] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,277] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=99 | remaining=19.983[0m
+[35m[2026-04-23 21:06:20,293] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,293] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,310] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,310] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,326] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,326] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,343] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,343] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,360] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,360] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:20,376] [INFO] [src.systems.status_system] STATUS_REFRESHED | status='poisoned' | duration=20.0 | tick_interval=1.0[0m
+[97m[2026-04-23 21:06:20,377] [INFO] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_CONTACT | applied_status='poisoned' | entity='grave_lace_vine_02'[0m
+[97m[2026-04-23 21:06:20,393] [DEBUG] [src.core.game] BIOTA_FLORA_GRAVE_LACE_VINE_PLAYER_LOST | entity='grave_lace_vine_02'[0m
+[35m[2026-04-23 21:06:21,277] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=98 | remaining=19.083[0m
+[34m[2026-04-23 21:06:21,993] [DEBUG] [src.core.game] USER_JUMPED | x=513.7421439886093 | y=256.0 | velocity_y=-255.0[0m
+[35m[2026-04-23 21:06:22,277] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=97 | remaining=18.083[0m
+[34m[2026-04-23 21:06:22,510] [DEBUG] [src.core.game] USER_JUMPED | x=563.3525984287262 | y=240.0 | velocity_y=-255.0[0m
+[36m[2026-04-23 21:06:22,627] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='threat_reveal' | current='recovery_pocket' | trigger='recovery_zone' | zoom=1.08 | follow_speed=0.075 | look_ahead_x=18.0[0m
+[34m[2026-04-23 21:06:23,144] [DEBUG] [src.core.game] USER_JUMPED | x=624.1664945483208 | y=256.0 | velocity_y=-255.0[0m
+[35m[2026-04-23 21:06:23,277] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=96 | remaining=17.083[0m
+[34m[2026-04-23 21:06:23,777] [DEBUG] [src.core.game] USER_JUMPED | x=684.9802088141441 | y=256.0 | velocity_y=-255.0[0m
+[94m[2026-04-23 21:06:24,211] [DEBUG] [src.systems.interaction_system] INTERACTION_AVAILABLE | target='blue_mercy_gourd_01' | distance_sq=566.926[0m
+[97m[2026-04-23 21:06:24,211] [DEBUG] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_PLAYER_NEARBY | distance_sq=566.926 | entity='blue_mercy_gourd_01'[0m
+[35m[2026-04-23 21:06:24,277] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=95 | remaining=16.082[0m
+[35m[2026-04-23 21:06:25,279] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=94 | remaining=15.08[0m
+[35m[2026-04-23 21:06:26,279] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=93 | remaining=14.08[0m
+[35m[2026-04-23 21:06:27,280] [DEBUG] [src.systems.status_system] STATUS_TICK | status='poisoned' | damage=1 | health=92 | remaining=13.08[0m
+[94m[2026-04-23 21:06:27,646] [INFO] [src.systems.interaction_system] INTERACTION_EXECUTED | target='blue_mercy_gourd_01' | clears_statuses=['poisoned'][0m
+[97m[2026-04-23 21:06:27,647] [INFO] [src.systems.interaction_system] BIOTA_FLORA_BLUE_MERCY_GOURD_INTERACTED | clears_statuses=['poisoned'] | entity='blue_mercy_gourd_01'[0m
+[35m[2026-04-23 21:06:27,647] [INFO] [src.systems.status_system] STATUS_REMOVED | status='poisoned'[0m
+[94m[2026-04-23 21:06:27,647] [INFO] [src.systems.interaction_system] INTERACTION_COMPLETED | target='blue_mercy_gourd_01' | removed=['poisoned'][0m
+[94m[2026-04-23 21:06:27,663] [DEBUG] [src.systems.interaction_system] INTERACTION_TARGET_LOST | target='blue_mercy_gourd_01'[0m
+[36m[2026-04-23 21:06:30,814] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='recovery_pocket' | current='default_exploration' | trigger='final_zone' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[92m[2026-04-23 21:06:33,648] [INFO] [src.core.game] GAME_SLICE_COMPLETED | map_id='vertical_slice_01'[0m
+[95m[2026-04-23 21:06:39,699] [DEBUG] [src.ui.text_renderer] FONT_UNLOADED | file='assets/fonts/PressStart2P-Regular.ttf'[0m
+[92m[2026-04-23 21:06:39,716] [INFO] [src.core.app] APP_STOPPED[0m
+[97m[2026-04-23 21:27:07,514] [INFO] [src.systems.log_system] LOGGING_CONFIGURED | level_name='DEBUG' | console_colors=True | file_logging=True | ansi_in_file=True | biota_logging=True | biota_file_logging=True[0m
+[33m[2026-04-23 21:27:07,683] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='eng' | file='eng.lng' | entries=38[0m
+[33m[2026-04-23 21:27:07,683] [INFO] [src.systems.localization_system] I18N_BUNDLE_LOADED | language='ukr' | file='ukr.lng' | entries=38[0m
+[95m[2026-04-23 21:27:07,685] [INFO] [src.ui.text_renderer] FONT_LOADED | file='PressStart2P-Regular.ttf' | glyphs=157 | base_size=8 | spacing=1.0[0m
+[36m[2026-04-23 21:27:07,685] [INFO] [src.systems.camera_system] CAMERA_PROFILE_CHANGED | previous='default_exploration' | current='default_exploration' | trigger='none' | zoom=1.0 | follow_speed=0.085 | look_ahead_x=22.0[0m
+[36m[2026-04-23 21:27:07,685] [INFO] [src.systems.camera_system] CAMERA_RENDER_PIXEL_SNAP_ENABLED[0m
+[32m[2026-04-23 21:27:07,705] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='sky' | path='assets/backgrounds/parallax_sky_01.png' | speed=0.06 | alpha=255[0m
+[32m[2026-04-23 21:27:07,721] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='far' | path='assets/backgrounds/parallax_far_01.png' | speed=0.14 | alpha=190[0m
+[32m[2026-04-23 21:27:07,744] [INFO] [src.core.game] PARALLAX_LAYER_LOADED | layer='mid' | path='assets/backgrounds/parallax_mid_01.png' | speed=0.26 | alpha=150[0m
+[32m[2026-04-23 21:27:07,746] [INFO] [src.world.tiled_loader] MAP_LOADED | map_id='vertical_slice_01' | width=80 | height=23 | tile_width=16 | tile_height=16 | tile_layers=3 | object_layers=6[0m
+[37m[2026-04-23 21:27:07,747] [INFO] [src.core.game] PLAYER_SPAWNED | x=72.0 | y=256.0[0m
+[92m[2026-04-23 21:27:07,747] [INFO] [src.core.game] GAME_INITIALIZED | map_id='vertical_slice_01'[0m
+[92m[2026-04-23 21:27:07,747] [INFO] [src.core.app] APP_STARTED | window_width=1670 | window_height=940 | internal_width=640 | internal_height=360 | pause_on_focus_lost=True | max_delta_time=0.0333333333[0m
+[92m[2026-04-23 21:27:07,747] [INFO] [src.core.app] APP_FOCUS_GAINED[0m
+[92m[2026-04-23 21:27:07,760] [DEBUG] [src.core.app] APP_DELTA_TIME_CLAMPED | raw_delta_time=0.096374 | clamped_delta_time=0.033333[0m
+[34m[2026-04-23 21:27:09,123] [DEBUG] [src.core.game] USER_JUMPED | x=72.0 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:27:09,906] [DEBUG] [src.core.game] USER_JUMPED | x=72.0 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:27:10,623] [DEBUG] [src.core.game] USER_JUMPED | x=72.0 | y=256.0 | velocity_y=-255.0[0m
+[34m[2026-04-23 21:27:11,307] [DEBUG] [src.core.game] USER_JUMPED | x=81.60269236564636 | y=256.0 | velocity_y=-255.0[0m
+[32m[2026-04-23 21:27:12,657] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 21:27:15,725] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[32m[2026-04-23 21:27:16,175] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 21:27:17,042] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[32m[2026-04-23 21:27:17,692] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=True[0m
+[32m[2026-04-23 21:27:21,994] [INFO] [src.core.game] DEBUG_OVERLAY_TOGGLED | enabled=False[0m
+[95m[2026-04-23 21:27:23,544] [DEBUG] [src.ui.text_renderer] FONT_UNLOADED | file='assets/fonts/PressStart2P-Regular.ttf'[0m
+[92m[2026-04-23 21:27:23,573] [INFO] [src.core.app] APP_STOPPED[0m
