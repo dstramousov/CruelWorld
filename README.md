@@ -31,3 +31,6 @@
 - `logs/game.log` and `logs/debug.log` also contain ANSI colors, so `tail -f logs/game.log` stays colorized in a terminal.
 - Add new semantic color rules in `message_color_rules`, for example `USER_MOVED_*` -> `BLUE`.
 - Helper methods are available through project loggers: `log_event`, `log_state`, `log_object`, `log_exception_event`.
+
+- <img width="2132" height="1120" alt="Screenshot from 2026-04-23 21-41-44" src="https://github.com/user-attachments/assets/f85afb5b-a657-47b8-ad39-e810cefee4ba" />
+
