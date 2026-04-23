@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# Archive name.
+ARCHIVE_NAME="archive.zip"
+
+
+main() {
+    if ! command -v zip >/dev/null 2>&1; then
+        echo "Error: zip is not installed." >&2
+        exit 1
+    fi
+
+    if [[ -f "$ARCHIVE_NAME" ]]; then
+        echo "Error: archive '$ARCHIVE_NAME' already exists." >&2
+        exit 1
+    fi
+
+    zip -r "$ARCHIVE_NAME" . -x "./$ARCHIVE_NAME"
+
+    echo "Created archive: $ARCHIVE_NAME"
+}
+
+main "$@"
