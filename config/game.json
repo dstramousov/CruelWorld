@@ -1,14 +1,14 @@
 {
   "window": {
     "title": "Kingdom Fall",
-    "width": 1670,
-    "height": 940,
+    "width": 1920,
+    "height": 1080,
     "target_fps": 60,
     "vsync": true
   },
   "render": {
-    "internal_width": 640,
-    "internal_height": 360,
+    "internal_width": 960,
+    "internal_height": 540,
     "clear_color": [
       10,
       12,
@@ -20,20 +20,35 @@
     "default_language": "eng",
     "supported_languages": [
       "eng",
-      "ukr"
+      "ukr",
+      "rus"
     ]
   },
   "debug": {
-    "overlay_enabled": false
+    "overlay_enabled": true,
+    "chunk_width_tiles": 64
   },
   "font": {
     "path": "assets/fonts/PressStart2P-Regular.ttf",
     "base_size": 8,
-    "spacing": 1.0
+    "spacing": 1
   },
   "world": {
-    "start_zone": "vertical_slice_01",
-    "start_map": "assets/maps/vertical_slice_01.tmx"
+    "start_scene": "vertical_slice_01",
+    "start_zone": "landing_margin",
+    "start_map": "assets/maps/vertical_slice_01.tmx",
+    "required_tile_layers": [
+      "ground",
+      "platforms",
+      "collision"
+    ],
+    "required_object_layers": [
+      "spawns_player",
+      "hazards",
+      "interactables",
+      "camera_zones",
+      "triggers"
+    ]
   },
   "timing": {
     "max_delta_time": 0.0333333333
@@ -41,48 +56,16 @@
   "application": {
     "pause_on_focus_lost": true
   },
-  "parallax": {
-    "enabled": true,
-    "layers": [
-      {
-        "path": "assets/backgrounds/parallax_sky_01.png",
-        "speed": 0.06,
-        "alpha": 255,
-        "vertical_offset": 0,
-        "height": 360,
-        "width": 1280,
-        "name": "sky"
-      },
-      {
-        "path": "assets/backgrounds/parallax_far_01.png",
-        "speed": 0.14,
-        "alpha": 190,
-        "vertical_offset": 0,
-        "height": 360,
-        "width": 1280,
-        "name": "far"
-      },
-      {
-        "path": "assets/backgrounds/parallax_mid_01.png",
-        "speed": 0.26,
-        "alpha": 150,
-        "vertical_offset": 0,
-        "height": 360,
-        "width": 1280,
-        "name": "mid"
-      }
-    ]
-  },
   "day_night_cycle": {
     "enabled": true,
-    "day_duration_minutes": 3.0,
+    "day_duration_minutes": 3,
     "randomize_start_time": true,
-    "start_time_hours": 12.0,
+    "start_time_hours": 12,
     "phase_ranges": {
-      "dawn_start": 5.0,
-      "day_start": 7.0,
-      "dusk_start": 18.0,
-      "night_start": 20.0
+      "dawn_start": 5,
+      "day_start": 7,
+      "dusk_start": 18,
+      "night_start": 20
     },
     "stars": {
       "enabled": true,
@@ -149,5 +132,90 @@
         72
       ]
     }
+  },
+  "controls": {
+    "move_left": [
+      "A",
+      "LEFT"
+    ],
+    "move_right": [
+      "D",
+      "RIGHT"
+    ],
+    "jump": [
+      "SPACE",
+      "W",
+      "UP"
+    ],
+    "interact": [
+      "F"
+    ],
+    "communicator_toggle": [
+      "TAB",
+      "J"
+    ],
+    "communicator_close": [
+      "ESCAPE",
+      "TAB",
+      "J"
+    ],
+    "communicator_next": [
+      "DOWN",
+      "S"
+    ],
+    "communicator_previous": [
+      "UP",
+      "W"
+    ],
+    "communicator_menu_next": [
+      "RIGHT"
+    ],
+    "communicator_menu_previous": [
+      "LEFT"
+    ],
+    "communicator_activate": [
+      "ENTER"
+    ],
+    "communicator_cancel": [
+      "BACKSPACE"
+    ],
+    "toggle_language": [
+      "F1"
+    ],
+    "toggle_debug": [
+      "LEFT_SHIFT+D",
+      "RIGHT_SHIFT+D"
+    ],
+    "zoom_out": [
+      "Q"
+    ],
+    "zoom_in": [
+      "E"
+    ],
+    "flashlight_cycle": [
+      "L"
+    ]
+  },
+  "ui": {
+    "communicator": {
+      "font_size": 8,
+      "line_height": 11,
+      "font_size_options": [
+        8,
+        10,
+        12
+      ]
+    }
+  },
+  "flashlight": {
+    "radial_radius": 82,
+    "beam_distance": 148,
+    "beam_half_width": 34,
+    "start_mode": "off"
+  },
+  "new_game": {
+    "default_hero_name": "Survivor",
+    "max_hero_name_length": 18,
+    "scenario_id": "crash_wake"
   }
 }

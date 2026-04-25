@@ -1,0 +1,1 @@
+python3 -m sphinx -b html docs_api/source docs_api/build/html

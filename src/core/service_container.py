@@ -1,3 +1,5 @@
+"""Service Container module for application bootstrap, configuration, validation, and main game orchestration."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field

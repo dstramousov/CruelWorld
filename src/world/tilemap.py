@@ -1,3 +1,5 @@
+"""Tilemap module for tile map, zone, spawning, and world-state helpers."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -40,8 +42,18 @@ class TileMap:
 
     @property
     def pixel_width(self) -> int:
+        """Execute pixel width.
+        
+        Returns:
+            Result produced by this operation.
+        """
         return self.width * self.tile_width
 
     @property
     def pixel_height(self) -> int:
+        """Execute pixel height.
+        
+        Returns:
+            Result produced by this operation.
+        """
         return self.height * self.tile_height

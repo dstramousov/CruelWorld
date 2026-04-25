@@ -1,3 +1,5 @@
+"""Time System module for runtime gameplay systems."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -9,6 +11,7 @@ Color = tuple[int, int, int, int]
 
 @dataclass(slots=True)
 class DayNightPhaseRanges:
+    """Represent the DayNightPhaseRanges runtime concept."""
     dawn_start: float
     day_start: float
     dusk_start: float
@@ -17,6 +20,7 @@ class DayNightPhaseRanges:
 
 @dataclass(slots=True)
 class DayNightConfig:
+    """Represent the DayNightConfig runtime concept."""
     enabled: bool = True
     day_duration_minutes: float = 24.0
     randomize_start_time: bool = True
@@ -35,6 +39,7 @@ class DayNightConfig:
 
 @dataclass(slots=True)
 class TimeOfDayTintConfig:
+    """Represent the TimeOfDayTintConfig runtime concept."""
     day_world: Color = (255, 255, 255, 0)
     dusk_world: Color = (255, 226, 186, 22)
     night_world: Color = (180, 196, 255, 42)
@@ -46,6 +51,7 @@ class TimeOfDayTintConfig:
 
 @dataclass(slots=True)
 class StarConfig:
+    """Represent the StarConfig runtime concept."""
     enabled: bool = True
     count: int = 80
     min_alpha: int = 90
@@ -63,6 +69,7 @@ class StarConfig:
 
 @dataclass(slots=True)
 class Star:
+    """Represent the Star runtime concept."""
     x: float
     y: float
     size: int
@@ -75,6 +82,12 @@ class TimeSystem:
     """Manage the day-night cycle and procedural stars."""
 
     def __init__(self, config: dict, seed: int | None = None) -> None:
+        """Execute init.
+        
+        Args:
+            config: Input value used by this operation.
+            seed: Input value used by this operation.
+        """
         cycle_cfg = config.get("day_night_cycle", {})
         star_cfg = cycle_cfg.get("stars", {})
         phase_cfg = cycle_cfg.get("phase_ranges", {})
@@ -123,6 +136,11 @@ class TimeSystem:
         self.stars: list[Star] = []
 
     def _choose_start_time(self) -> float:
+        """Execute choose start time.
+        
+        Returns:
+            Result produced by this operation.
+        """
         if not self.config.enabled:
             return self._normalize_hours(self.config.start_time_hours)
         if self.config.randomize_start_time:
@@ -160,6 +178,11 @@ class TimeSystem:
         cycle_seconds = max(1.0, self.config.day_duration_minutes * 60.0)
         delta_hours = (delta_time / cycle_seconds) * 24.0
         self.current_time_hours = self._normalize_hours(self.current_time_hours + delta_hours)
+
+    def reset_to_start_time(self) -> None:
+        """Reset the cycle to the configured new-run start time."""
+        self.current_time_hours = self._choose_start_time()
+        self.elapsed_seconds = 0.0
 
     def get_phase_name(self) -> str:
         """Return the logical time-of-day phase."""
@@ -217,10 +240,28 @@ class TimeSystem:
 
     @staticmethod
     def _normalize_hours(value: float) -> float:
+        """Execute normalize hours.
+        
+        Args:
+            value: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         return value % 24.0
 
     @staticmethod
     def _safe_inverse_lerp(start: float, end: float, value: float) -> float:
+        """Execute safe inverse lerp.
+        
+        Args:
+            start: Input value used by this operation.
+            end: Input value used by this operation.
+            value: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         if math.isclose(start, end):
             return 1.0
         factor = (value - start) / (end - start)
@@ -236,39 +277,113 @@ class TimeSystem:
         return self._get_interpolated_tint(target="sky")
 
     def _get_interpolated_tint(self, target: str) -> Color:
-        ranges = self.config.phase_ranges
-        time_value = self.current_time_hours
+        """Return a smoothly interpolated tint for the requested target.
+
+        Args:
+            target: Tint palette name, either ``world`` or ``sky``.
+
+        Returns:
+            Interpolated RGBA tint for the current in-game time.
+        """
         palette = {
             "world": {
+                "dawn": self.tint_config.dawn_world,
                 "day": self.tint_config.day_world,
                 "dusk": self.tint_config.dusk_world,
                 "night": self.tint_config.night_world,
-                "dawn": self.tint_config.dawn_world,
             },
             "sky": {
+                "dawn": self.tint_config.dawn_sky,
                 "day": self.tint_config.day_sky,
                 "dusk": self.tint_config.dusk_sky,
                 "night": self.tint_config.night_sky,
-                "dawn": self.tint_config.dawn_sky,
             },
         }[target]
+        return self._interpolate_day_cycle_palette(palette)
 
+    def _interpolate_day_cycle_palette(self, palette: dict[str, Color]) -> Color:
+        """Interpolate a color palette around the full 24-hour cycle.
+
+        Args:
+            palette: Mapping from phase name to RGBA tint color.
+
+        Returns:
+            Smoothly interpolated RGBA tint for the current time.
+        """
+        ranges = self.config.phase_ranges
+        time_value = self.current_time_hours
         if ranges.day_start <= time_value < ranges.dusk_start:
             return palette["day"]
+
         if ranges.dusk_start <= time_value < ranges.night_start:
             factor = self._safe_inverse_lerp(ranges.dusk_start, ranges.night_start, time_value)
-            return self._lerp_color(palette["day"], palette["dusk"], factor)
-        if ranges.night_start <= time_value or time_value < ranges.dawn_start:
-            if time_value >= ranges.night_start:
-                factor = self._safe_inverse_lerp(ranges.night_start, 24.0, time_value)
-            else:
-                factor = self._safe_inverse_lerp(0.0, ranges.dawn_start, time_value)
-            return self._lerp_color(palette["night"], palette["night"], factor)
-        factor = self._safe_inverse_lerp(ranges.dawn_start, ranges.day_start, time_value)
-        return self._lerp_color(palette["dawn"], palette["day"], factor)
+            return self._interpolate_three_stage_palette(
+                palette["day"],
+                palette["dusk"],
+                palette["night"],
+                factor,
+            )
+
+        if ranges.dawn_start <= time_value < ranges.day_start:
+            factor = self._safe_inverse_lerp(ranges.dawn_start, ranges.day_start, time_value)
+            return self._interpolate_three_stage_palette(
+                palette["night"],
+                palette["dawn"],
+                palette["day"],
+                factor,
+            )
+
+        return palette["night"]
+
+    def _interpolate_three_stage_palette(
+        self,
+        start: Color,
+        middle: Color,
+        end: Color,
+        factor: float,
+    ) -> Color:
+        """Interpolate through a midpoint color without phase-boundary jumps.
+
+        Args:
+            start: Color at the beginning of the transition.
+            middle: Color reached halfway through the transition.
+            end: Color at the end of the transition.
+            factor: Raw transition factor in the range [0.0, 1.0].
+
+        Returns:
+            Smoothly interpolated RGBA color.
+        """
+        if factor < 0.5:
+            local_factor = self._smoothstep(factor * 2.0)
+            return self._lerp_color(start, middle, local_factor)
+        local_factor = self._smoothstep((factor - 0.5) * 2.0)
+        return self._lerp_color(middle, end, local_factor)
+
+    @staticmethod
+    def _smoothstep(factor: float) -> float:
+        """Return a smoothed interpolation factor.
+
+        Args:
+            factor: Raw interpolation factor.
+
+        Returns:
+            Smoothed factor clamped to the range [0.0, 1.0].
+        """
+        clamped = max(0.0, min(1.0, factor))
+        return clamped * clamped * (3.0 - 2.0 * clamped)
 
     @staticmethod
     def _lerp_color(start: Color, end: Color, factor: float) -> Color:
+        """Execute lerp color.
+        
+        Args:
+            start: Input value used by this operation.
+            end: Input value used by this operation.
+            factor: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         clamped = max(0.0, min(1.0, factor))
         return tuple(
             int(round(start[index] + (end[index] - start[index]) * clamped))
@@ -277,6 +392,15 @@ class TimeSystem:
 
     @staticmethod
     def _parse_color(value: object, default: Color) -> Color:
+        """Execute parse color.
+        
+        Args:
+            value: Input value used by this operation.
+            default: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         if not isinstance(value, (list, tuple)) or len(value) != 4:
             return default
         try:

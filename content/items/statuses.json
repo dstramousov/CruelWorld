@@ -6,5 +6,29 @@
     "tick_interval": 1.0,
     "tick_damage": 1,
     "color": [255, 210, 80, 255]
+  },
+  "slowed": {
+    "name_key": "status.slowed.name",
+    "description_key": "status.slowed.desc",
+    "duration": 8.0,
+    "tick_interval": 1.0,
+    "tick_damage": 0,
+    "color": [120, 180, 120, 255]
+  },
+  "drowsy": {
+    "name_key": "status.drowsy.name",
+    "description_key": "status.drowsy.desc",
+    "duration": 12.0,
+    "tick_interval": 1.0,
+    "tick_damage": 0,
+    "color": [160, 150, 220, 255]
+  },
+  "marked": {
+    "name_key": "status.marked.name",
+    "description_key": "status.marked.desc",
+    "duration": 18.0,
+    "tick_interval": 1.0,
+    "tick_damage": 0,
+    "color": [255, 120, 120, 255]
   }
 }

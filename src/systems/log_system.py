@@ -1,34 +1,67 @@
+"""Log System module for runtime gameplay systems."""
+
 from __future__ import annotations
 
 import json
 import logging
 import re
+from collections import deque
 from dataclasses import asdict, is_dataclass
 from fnmatch import fnmatchcase
 from pathlib import Path
 from pprint import pformat
-from typing import Any
+from typing import Any, Deque
 
 from src.utils.paths import CONFIG_DIR, LOGS_DIR
 
 
 _BIOTA_LOGGING_ENABLED = True
+_OVERLAY_CAPACITY = 128
+_overlay_handler: LogBufferHandler | None = None
 
 
 class ProjectLogger(logging.Logger):
     """Application logger with convenience helpers for structured text events."""
 
     def log_event(self, event_name: str, level: int = logging.DEBUG, **kwargs: Any) -> None:
+        """Execute log event.
+        
+        Args:
+            event_name: Input value used by this operation.
+            level: Input value used by this operation.
+            kwargs: Input value used by this operation.
+        """
         self.log(level, _compose_message(event_name, kwargs))
 
     def log_state(self, state_name: str, level: int = logging.DEBUG, **kwargs: Any) -> None:
+        """Execute log state.
+        
+        Args:
+            state_name: Input value used by this operation.
+            level: Input value used by this operation.
+            kwargs: Input value used by this operation.
+        """
         self.log(level, _compose_message(state_name, kwargs))
 
     def log_object(self, object_name: str, obj: Any, level: int = logging.DEBUG) -> None:
+        """Execute log object.
+        
+        Args:
+            object_name: Input value used by this operation.
+            obj: Input value used by this operation.
+            level: Input value used by this operation.
+        """
         payload = serialize_object(obj)
         self.log(level, "%s | %s", object_name, payload)
 
     def log_exception_event(self, event_name: str, exc: BaseException, **kwargs: Any) -> None:
+        """Execute log exception event.
+        
+        Args:
+            event_name: Input value used by this operation.
+            exc: Input value used by this operation.
+            kwargs: Input value used by this operation.
+        """
         payload = dict(kwargs)
         payload["exception"] = f"{type(exc).__name__}: {exc}"
         self.exception(_compose_message(event_name, payload))
@@ -65,16 +98,52 @@ class ProjectLogger(logging.Logger):
 logging.setLoggerClass(ProjectLogger)
 
 
+class LogBufferHandler(logging.Handler):
+    """In-memory log handler for debug overlay."""
+
+    def __init__(self, capacity: int = 128) -> None:
+        """Execute init.
+        
+        Args:
+            capacity: Input value used by this operation.
+        """
+        super().__init__()
+        self.records: Deque[str] = deque(maxlen=capacity)
+
+    def emit(self, record: logging.LogRecord) -> None:
+        """Execute emit.
+        
+        Args:
+            record: Input value used by this operation.
+        """
+        self.records.append(self.format(record))
+
+
 class ColorRule:
     """Semantic color rule matched against the rendered log message."""
 
     def __init__(self, pattern: str, match_type: str, color: str) -> None:
+        """Execute init.
+        
+        Args:
+            pattern: Input value used by this operation.
+            match_type: Input value used by this operation.
+            color: Input value used by this operation.
+        """
         self.pattern = pattern
         self.match_type = match_type.lower()
         self.color = color.upper()
         self._regex = re.compile(pattern) if self.match_type == "regex" else None
 
     def matches(self, message: str) -> bool:
+        """Execute matches.
+        
+        Args:
+            message: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         if self.match_type == "glob":
             return fnmatchcase(message, self.pattern)
         if self.match_type == "contains":
@@ -115,12 +184,28 @@ class SemanticColorFormatter(logging.Formatter):
         message_rules: list[ColorRule],
         enable_colors: bool,
     ) -> None:
+        """Execute init.
+        
+        Args:
+            fmt: Input value used by this operation.
+            level_colors: Input value used by this operation.
+            message_rules: Input value used by this operation.
+            enable_colors: Input value used by this operation.
+        """
         super().__init__(fmt)
         self._level_colors = {key.upper(): value.upper() for key, value in level_colors.items()}
         self._message_rules = message_rules
         self._enable_colors = enable_colors
 
     def format(self, record: logging.LogRecord) -> str:
+        """Execute format.
+        
+        Args:
+            record: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         rendered = super().format(record)
         if not self._enable_colors:
             return rendered
@@ -137,6 +222,15 @@ class SemanticColorFormatter(logging.Formatter):
         return f"{prefix}{rendered}{reset}"
 
     def _resolve_color(self, level_name: str, message: str) -> str | None:
+        """Execute resolve color.
+        
+        Args:
+            level_name: Input value used by this operation.
+            message: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         for rule in self._message_rules:
             if rule.matches(message):
                 return rule.color
@@ -147,6 +241,14 @@ class BiotaOnlyFilter(logging.Filter):
     """Allow only biota-tagged records through the handler."""
 
     def filter(self, record: logging.LogRecord) -> bool:
+        """Execute filter.
+        
+        Args:
+            record: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         return bool(getattr(record, "is_biota", False))
 
 
@@ -154,6 +256,14 @@ class ExcludeBiotaFilter(logging.Filter):
     """Optional filter to keep general logs cleaner if desired later."""
 
     def filter(self, record: logging.LogRecord) -> bool:
+        """Execute filter.
+        
+        Args:
+            record: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         return True
 
 
@@ -180,21 +290,27 @@ def serialize_object(obj: Any) -> str:
     return repr(obj)
 
 
-def configure_logging(config_path: Path | None = None) -> None:
+def configure_logging(config_path: Path | str | None = None) -> LogBufferHandler:
     """Configure root logging from project config."""
-    global _BIOTA_LOGGING_ENABLED
+    global _overlay_handler, _BIOTA_LOGGING_ENABLED, _OVERLAY_CAPACITY
 
-    config_file = config_path or CONFIG_DIR / "logging.json"
+    level_override: str | None = None
+    if isinstance(config_path, str) and not config_path.endswith(".json"):
+        level_override = config_path.upper()
+        config_file = CONFIG_DIR / "logging.json"
+    else:
+        config_file = Path(config_path) if config_path is not None else CONFIG_DIR / "logging.json"
     config = json.loads(config_file.read_text(encoding="utf-8"))
 
     logging_cfg = config.get("logging", {})
-    level_name = logging_cfg.get("level", "DEBUG").upper()
+    level_name = level_override or logging_cfg.get("level", "DEBUG").upper()
     console_colors = bool(logging_cfg.get("console_colors", True))
     file_logging = bool(logging_cfg.get("file_logging", True))
     ansi_in_file = bool(logging_cfg.get("ansi_in_file", True))
     show_timestamp = bool(logging_cfg.get("show_timestamp", True))
     show_level = bool(logging_cfg.get("show_level", True))
     show_logger_name = bool(logging_cfg.get("show_logger_name", True))
+    _OVERLAY_CAPACITY = int(logging_cfg.get("overlay_capacity", 128))
 
     biota_cfg = config.get("biota_logging", {})
     _BIOTA_LOGGING_ENABLED = bool(biota_cfg.get("enabled", True))
@@ -286,6 +402,11 @@ def configure_logging(config_path: Path | None = None) -> None:
         crash_handler.setFormatter(logging.Formatter(base_format))
         root_logger.addHandler(crash_handler)
 
+    _overlay_handler = LogBufferHandler(capacity=_OVERLAY_CAPACITY)
+    _overlay_handler.setLevel("DEBUG")
+    _overlay_handler.setFormatter(logging.Formatter("[%(levelname)s] %(message)s"))
+    root_logger.addHandler(_overlay_handler)
+
     get_logger(__name__).log_event(
         "LOGGING_CONFIGURED",
         level=logging.INFO,
@@ -296,6 +417,19 @@ def configure_logging(config_path: Path | None = None) -> None:
         biota_logging=_BIOTA_LOGGING_ENABLED,
         biota_file_logging=biota_file_logging,
     )
+    return _overlay_handler
+
+
+def get_overlay_handler() -> LogBufferHandler:
+    """Return overlay handler.
+    
+    Returns:
+        Result produced by this operation.
+    """
+    if _overlay_handler is None:
+        raise RuntimeError("Logging is not configured")
+    return _overlay_handler
+
 
 def is_biota_logging_enabled() -> bool:
     """Expose current biota logging toggle for runtime systems."""
@@ -303,6 +437,15 @@ def is_biota_logging_enabled() -> bool:
 
 
 def _compose_message(name: str, payload: dict[str, Any]) -> str:
+    """Execute compose message.
+    
+    Args:
+        name: Input value used by this operation.
+        payload: Input value used by this operation.
+    
+    Returns:
+        Result produced by this operation.
+    """
     if not payload:
         return name
     fragments = [f"{key}={serialize_object(value)}" for key, value in payload.items()]
@@ -310,5 +453,13 @@ def _compose_message(name: str, payload: dict[str, Any]) -> str:
 
 
 def _normalize_token(value: str) -> str:
+    """Execute normalize token.
+    
+    Args:
+        value: Input value used by this operation.
+    
+    Returns:
+        Result produced by this operation.
+    """
     normalized = re.sub(r"[^A-Za-z0-9]+", "_", value).strip("_")
     return normalized.upper() or "UNKNOWN"

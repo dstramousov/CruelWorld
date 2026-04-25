@@ -1,10 +1,9 @@
 import logging
 
-from src.systems.log_system import configure_logging
+from src.systems.log_system import configure_logging, get_overlay_handler
 
 
-def test_logging_configuration_allows_regular_logging() -> None:
-    configure_logging()
-    logger = logging.getLogger("test")
-    logger.info("hello")
-    assert logger.isEnabledFor(logging.INFO)
+def test_logging_buffer_collects_records() -> None:
+    configure_logging("DEBUG")
+    logging.getLogger("test").info("hello")
+    assert any("hello" in record for record in get_overlay_handler().records)

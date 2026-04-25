@@ -1,3 +1,5 @@
+"""Status System module for runtime gameplay systems."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -26,14 +28,33 @@ class StatusSystem:
     """Applies and updates status effects on entities."""
 
     def __init__(self, definitions: dict[str, StatusDefinition]) -> None:
+        """Execute init.
+        
+        Args:
+            definitions: Input value used by this operation.
+        """
         self._definitions = definitions
         self._last_event: str = "none"
 
     @property
     def last_event(self) -> str:
+        """Execute last event.
+        
+        Returns:
+            Result produced by this operation.
+        """
         return self._last_event
 
     def apply(self, receiver: StatusReceiverComponent, status_id: str) -> bool:
+        """Execute apply.
+        
+        Args:
+            receiver: Input value used by this operation.
+            status_id: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         definition = self._definitions.get(status_id)
         if definition is None:
             logger.log_event("STATUS_UNKNOWN_REQUESTED", level=40, status=status_id)
@@ -72,6 +93,15 @@ class StatusSystem:
         return True
 
     def remove(self, receiver: StatusReceiverComponent, status_id: str) -> bool:
+        """Execute remove.
+        
+        Args:
+            receiver: Input value used by this operation.
+            status_id: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         if status_id not in receiver.active:
             return False
         receiver.active.pop(status_id)
@@ -80,6 +110,15 @@ class StatusSystem:
         return True
 
     def remove_many(self, receiver: StatusReceiverComponent, statuses: list[str]) -> list[str]:
+        """Execute remove many.
+        
+        Args:
+            receiver: Input value used by this operation.
+            statuses: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         removed: list[str] = []
         for status_id in statuses:
             if self.remove(receiver, status_id):
@@ -87,6 +126,13 @@ class StatusSystem:
         return removed
 
     def update(self, receiver: StatusReceiverComponent, health: Any, delta_time: float) -> None:
+        """Update update.
+        
+        Args:
+            receiver: Input value used by this operation.
+            health: Input value used by this operation.
+            delta_time: Input value used by this operation.
+        """
         expired: list[str] = []
         for status in receiver.active.values():
             status.remaining -= delta_time
@@ -111,4 +157,12 @@ class StatusSystem:
             logger.log_event("STATUS_EXPIRED", level=20, status=status_id)
 
     def get_definition(self, status_id: str) -> StatusDefinition | None:
+        """Return definition.
+        
+        Args:
+            status_id: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         return self._definitions.get(status_id)

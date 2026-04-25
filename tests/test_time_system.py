@@ -87,3 +87,56 @@ def test_sky_tint_is_stronger_than_world_tint_at_night() -> None:
     world_tint = system.get_world_tint()
     assert sky_tint[3] > world_tint[3]
     assert sky_tint[2] >= sky_tint[0]
+
+
+def test_world_tint_has_no_jump_at_dawn_boundary() -> None:
+    system = make_system(start_time_hours=4.99)
+    system.current_time_hours = 4.99
+    before = system.get_world_tint()
+    system.current_time_hours = 5.0
+    at_boundary = system.get_world_tint()
+
+    assert before == (180, 196, 255, 42)
+    assert at_boundary == before
+
+
+def test_world_tint_has_no_jump_at_dusk_boundary() -> None:
+    system = make_system(start_time_hours=17.99)
+    system.current_time_hours = 17.99
+    before = system.get_world_tint()
+    system.current_time_hours = 18.0
+    at_boundary = system.get_world_tint()
+
+    assert before == (255, 255, 255, 0)
+    assert at_boundary == before
+
+
+def test_world_tint_reaches_dusk_midpoint_before_night() -> None:
+    system = make_system(start_time_hours=19.0)
+
+    assert system.get_world_tint() == (255, 226, 186, 22)
+
+
+def test_smoothstep_keeps_transition_edges_stable() -> None:
+    assert TimeSystem._smoothstep(0.0) == 0.0
+    assert TimeSystem._smoothstep(1.0) == 1.0
+    assert TimeSystem._smoothstep(-1.0) == 0.0
+    assert TimeSystem._smoothstep(2.0) == 1.0
+
+
+def test_time_system_reset_to_start_time_restores_configured_time() -> None:
+    system = TimeSystem(
+        {
+            "day_night_cycle": {
+                "enabled": True,
+                "randomize_start_time": False,
+                "start_time_hours": 9.5,
+            }
+        }
+    )
+    system.update(120.0)
+
+    system.reset_to_start_time()
+
+    assert system.current_time_hours == 9.5
+    assert system.elapsed_seconds == 0.0

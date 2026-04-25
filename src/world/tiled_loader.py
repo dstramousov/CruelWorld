@@ -1,3 +1,5 @@
+"""TMX map parser used to load Tiled maps into runtime data structures."""
+
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
@@ -14,6 +16,16 @@ class TiledLoader:
 
     @staticmethod
     def load(path: Path) -> TileMap:
+        # TMX parsing is intentionally narrow: CSV tile layers and rectangle
+        # object layers are enough for the current vertical slice.
+        """Execute load.
+        
+        Args:
+            path: Input value used by this operation.
+        
+        Returns:
+            Result produced by this operation.
+        """
         root = ET.parse(path).getroot()
         width = int(root.attrib["width"])
         height = int(root.attrib["height"])
@@ -28,6 +40,8 @@ class TiledLoader:
             tile_height=tile_height,
         )
 
+        # Tile layers store visual/collision grids. They must keep the same
+        # dimensions as the map and are validated before the game window opens.
         for layer_node in root.findall("layer"):
             data_node = layer_node.find("data")
             csv_data = data_node.text or ""
@@ -40,6 +54,8 @@ class TiledLoader:
             )
             tile_map.layers[layer.name] = layer
 
+        # Object layers define gameplay rectangles: spawns, hazards, resources,
+        # route guides, camera zones, and future streaming markers.
         for group_node in root.findall("objectgroup"):
             objects: list[MapObject] = []
             for object_node in group_node.findall("object"):

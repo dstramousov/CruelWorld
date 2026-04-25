@@ -1,3 +1,5 @@
+"""Camera System module for runtime gameplay systems."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -10,6 +12,7 @@ logger = get_logger(__name__)
 
 @dataclass(slots=True)
 class CameraProfile:
+    """Represent the CameraProfile runtime concept."""
     name: str
     zoom: float
     follow_speed: float
@@ -18,7 +21,10 @@ class CameraProfile:
 
 
 class CameraSystem:
+    """Represent the CameraSystem runtime concept."""
     def __init__(self) -> None:
+        """Execute init.
+        """
         self.controller = CameraController()
         self.profiles = {
             "default_exploration": CameraProfile(
@@ -56,6 +62,12 @@ class CameraSystem:
         logger.log_event("CAMERA_RENDER_PIXEL_SNAP_ENABLED", level=20)
 
     def set_profile(self, profile_name: str, trigger_name: str = "none") -> None:
+        """Execute set profile.
+        
+        Args:
+            profile_name: Input value used by this operation.
+            trigger_name: Input value used by this operation.
+        """
         if profile_name not in self.profiles:
             logger.log_event(
                 "CAMERA_PROFILE_UNKNOWN",
@@ -84,6 +96,13 @@ class CameraSystem:
         )
 
     def update(self, target_x: float, target_y: float, move_dir: float) -> None:
+        """Update update.
+        
+        Args:
+            target_x: Input value used by this operation.
+            target_y: Input value used by this operation.
+            move_dir: Input value used by this operation.
+        """
         profile = self.profiles[self.profile_name]
         self.controller.update(
             target_x=target_x,
@@ -92,9 +111,13 @@ class CameraSystem:
         )
 
     def zoom_in(self) -> None:
+        """Execute zoom in.
+        """
         self.controller.state.zoom = min(self.controller.state.zoom + 0.05, 1.8)
         logger.log_event("CAMERA_ZOOM_IN", zoom=self.controller.state.zoom)
 
     def zoom_out(self) -> None:
+        """Execute zoom out.
+        """
         self.controller.state.zoom = max(self.controller.state.zoom - 0.05, 0.7)
         logger.log_event("CAMERA_ZOOM_OUT", zoom=self.controller.state.zoom)

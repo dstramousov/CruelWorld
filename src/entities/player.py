@@ -1,3 +1,5 @@
+"""Player module for entity definitions and factories for gameplay objects."""
+
 from __future__ import annotations
 
 from src.components.collider import ColliderComponent
@@ -13,7 +15,10 @@ from src.entities.entity import Entity
 
 
 class Player(Entity):
+    """Represent the Player runtime concept."""
     def __init__(self) -> None:
+        """Execute init.
+        """
         super().__init__(entity_id="player", name_id="entity.player")
         self.add_component("transform", TransformComponent(x=96.0, y=240.0))
         self.add_component("sprite", SpriteComponent(width=14, height=24))

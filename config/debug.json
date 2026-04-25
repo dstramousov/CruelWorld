@@ -1,12 +1,27 @@
 {
   "show_overlay_default": false,
+  "log_interactions": true,
+  "log_camera_triggers": true,
+  "log_status_changes": true,
   "overlay": {
     "mode": "full_window",
     "padding": 12,
     "margin": 8,
-    "font_size": 8,
-    "line_height": 10,
+    "font_size": 16,
+    "line_height": 18,
     "min_width": 320,
-    "min_height": 120
+    "min_height": 120,
+    "label_color": [
+      235,
+      235,
+      235,
+      255
+    ],
+    "value_color": [
+      255,
+      170,
+      64,
+      255
+    ]
   }
 }
