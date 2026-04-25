@@ -1,35 +1,180 @@
-# Cruel world 
-
-## Included in this build
-- Side-view playable vertical slice
-- Tiled-driven test map
-- Grave Lace Vine hazard applies `poisoned`
-- Blue Mercy Gourd clears `poisoned`
-- Cinematic camera profiles switched by Tiled camera zones
-- English/Ukrainian localization
-- Configurable UI font
-- Colored logging and Shift+D debug overlay
-
-## Controls
-- `A/D` or arrow keys: move
-- `W` or `Space`: jump
-- `F`: interact
-- `F1`: switch language
-- `Shift+D`: debug overlay
-- `Q/E`: camera zoom debug
-
-## Slice flow
-1. Start in the safe area.
-2. Move through the hazard zone and get poisoned.
-3. Reach the recovery pocket and use Blue Mercy Gourd.
-4. Continue right to the exit trigger.
-
-
-## Logging
-
-- Console output is colorized by log level and semantic message rules from `config/logging.json`.
-- `logs/game.log` and `logs/debug.log` also contain ANSI colors, so `tail -f logs/game.log` stays colorized in a terminal.
-- Add new semantic color rules in `message_color_rules`, for example `USER_MOVED_*` -> `BLUE`.
-- Helper methods are available through project loggers: `log_event`, `log_state`, `log_object`, `log_exception_event`.
-
+# Царство падальників
 <img width="1676" height="938" alt="back" src="https://github.com/user-attachments/assets/3104644d-fbbd-4e4a-89a7-6451817a5687" />
+
+2D survival / exploration vertical slice на Python + raylib.
+
+Герой прокидається після аварії на чужій планеті, де флора лікує, калічить, світиться, шепоче і загалом поводиться впевненіше за більшість земних застосунків у production.
+
+## Поточний статус
+
+Це не повна гра, а робочий вертикальний зріз.
+
+Уже є:
+
+- рух героя у 2D side-view;
+- Tiled-мапа стартової зони;
+- HUD;
+- комунікатор;
+- журнал відкриттів;
+- інтерактивна флора;
+- статуси героя;
+- цикл день / ніч;
+- темна нічна атмосфера;
+- ліхтарик з режимами `off`, `radial`, `beam`;
+- debug overlay;
+- локалізація;
+- автотести;
+- Sphinx API-документація.
+
+Коротко: вже можна ходити, світити, тикати дивні рослини й робити вигляд, що це була наукова експедиція.
+
+---
+
+## Технологічний стек
+
+### Мова
+
+- Python 3.12+
+
+### Графіка / runtime
+
+- `raylib`
+- `raylib-python-cffi`
+
+### Карти
+
+- `pytmx`
+- мапи у форматі Tiled `.tmx`
+
+### Тести
+
+- `pytest`
+
+### Документація
+
+- `Sphinx`
+- `sphinx-rtd-theme`
+
+### Форматування / якість коду
+
+Залежить від поточного `requirements-dev.txt`, але проєкт орієнтований на:
+
+- type hints;
+- dataclasses;
+- модульну структуру;
+- автотести;
+- Sphinx docstrings;
+- конфігурацію через JSON.
+
+---
+
+## Основні можливості
+
+### Комунікатор
+
+Відкривається через `Tab` або `J`.
+
+Містить:
+
+- журнал;
+- нову гру;
+- налаштування;
+- вибір мови;
+- налаштування UI-тексту.
+
+Комунікатор — це щоденник, меню і психологічна підтримка героя.  
+Психологічна підтримка, щоправда, без ліцензії.
+
+---
+
+### Ліхтарик
+
+Режими:
+
+- `off` — для тих, хто хоче довіритися темряві. Не треба.
+- `radial` — м’яке світло навколо героя.
+- `beam` — направлений промінь у бік руху.
+
+День і ніч
+
+У грі є плавний цикл доби.
+
+Вночі сцена затемнюється сильніше, тому ліхтарик потрібен не для краси, а щоб герой не пішов знайомитися з місцевою харчовою пірамідою особисто.
+
+Статуси героя
+
+Поточні статуси:
+
+poisoned;
+slowed;
+drowsy;
+marked.
+
+Флора може лікувати, шкодити або робити щось посередині.
+Як і будь-яка нормальна чужопланетна флора з поганим характером.
+
+Керування
+Дія	Клавіші
+Рух	A/D або ←/→
+Стрибок	W, Space, ↑
+Взаємодія	F
+Комунікатор	Tab або J
+Навігація в комунікаторі	↑/↓, ←/→
+Ліхтарик	L
+Зміна мови	F1
+Debug overlay	Shift + D
+Debug zoom	Q/E
+Структура проєкту
+assets/          графіка, шрифти, мапи, фони
+config/          JSON-конфіги гри, debug і логування
+content/         дані світу, флори, зон і журналу
+docs/            нотатки по ітераціях
+docs_api/        Sphinx API-документація
+i18n/            мовні файли
+src/             основний код
+tests/           pytest-тести
+main.py          точка входу
+Встановлення
+python -m pip install -r requirements.txt
+python -m pip install -r requirements-dev.txt
+
+Тести
+python -m pytest
+
+Збірка Sphinx-документації:
+
+python -m sphinx -b html docs_api/source docs_api/build/html
+
+Якщо додаються нові модулі або змінюється публічна структура коду, потрібно оновити .rst файли в docs_api/source.
+
+Документація має бути актуальною.
+Інакше вона перетворюється на археологію, а археологів у цій грі планета теж з’їсть.
+
+Основні конфіги
+config/game.json
+
+Актуальна база:
+
+v9_flashlight_visual_atmosphere_full
+
+Фокус версії:
+
+покращений ліхтарик;
+темніша ніч;
+винесені параметри світла в конфіг;
+оновлена атмосфера;
+HUD / комунікатор polish;
+стабілізація тестів і документації.
+Що ще не зроблено
+
+Поки немає повноцінних:
+
+save/load;
+AI фауни;
+бойової системи;
+інвентарю;
+карти в комунікаторі;
+повної прогресії зон.
+
+Тобто герой уже виживає, але ще не розуміє, навіщо. Це нормально, у людей так теж буває.
+
