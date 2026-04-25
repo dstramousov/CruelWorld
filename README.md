@@ -1,4 +1,4 @@
-# Kingdom Fall - Working v6
+# Cruel world 
 
 ## Included in this build
 - Side-view playable vertical slice
@@ -31,3 +31,5 @@
 - `logs/game.log` and `logs/debug.log` also contain ANSI colors, so `tail -f logs/game.log` stays colorized in a terminal.
 - Add new semantic color rules in `message_color_rules`, for example `USER_MOVED_*` -> `BLUE`.
 - Helper methods are available through project loggers: `log_event`, `log_state`, `log_object`, `log_exception_event`.
+
+<img width="1676" height="938" alt="back" src="https://github.com/user-attachments/assets/3104644d-fbbd-4e4a-89a7-6451817a5687" />
