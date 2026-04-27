@@ -1,5 +1,7 @@
 # Царство падальників
-<img width="1676" height="938" alt="back" src="https://github.com/user-attachments/assets/3104644d-fbbd-4e4a-89a7-6451817a5687" />
+<img width="1672" height="940" alt="ChatGPT Image Apr 23, 2026, 11_05_37 AM" src="https://github.com/user-attachments/assets/593ac75e-5c78-48d4-89bf-ebd68d96b32e" />
+
+
 
 2D survival / exploration vertical slice на Python + raylib.
 
