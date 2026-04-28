@@ -1,5 +1,5 @@
 # Царство падальників
-<img width="1672" height="940" alt="ChatGPT Image Apr 23, 2026, 11_05_37 AM" src="https://github.com/user-attachments/assets/593ac75e-5c78-48d4-89bf-ebd68d96b32e" />
+<img width="1911" height="1064" alt="Screenshot from 2026-04-28 22-25-26" src="https://github.com/user-attachments/assets/cce386f9-e242-4e62-9d88-2ebeef6ef395" />
 
 
 
